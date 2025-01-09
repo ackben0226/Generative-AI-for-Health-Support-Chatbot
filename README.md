@@ -83,9 +83,6 @@ __⚠️ Limitations__
 - 🛠️ Depends on OpenAI API, so an active key is essential.
 - 🤔 May generate less accurate responses if data quality is poor.
 
-__📜 License__
-[Specify your license, e.g., MIT License]
-
 Enjoy building your health assistant! 🌟
 
 
