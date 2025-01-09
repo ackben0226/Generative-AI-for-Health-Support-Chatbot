@@ -1,7 +1,7 @@
 # __🩺 Health Support Chatbot - README 📖__
 
 ## __🌟 Overview__
-</br> This project is a Health Support Chatbot designed to assist users with health-related queries using customer data and advanced AI models. The chatbot provides tailored responses by leveraging structured data and OpenAI-powered language capabilities.
+This project is a Health Support Chatbot designed to assist users with health-related queries using customer data and advanced AI models. The chatbot provides tailored responses by leveraging structured data and OpenAI-powered language capabilities.
 
 ## __✨ Features__
 - 💬 ___Interactive Chat Interface:___ User-friendly chatbot powered by Streamlit.
@@ -33,50 +33,54 @@ Copy code
 OPENAI_API_KEY=your_openai_api_key_here
 
 ## __🏃 Usage__
-- Step 1️⃣: Prepare the Customer Data
+__Step 1️⃣:__ Prepare the Customer Data
 Ensure the CSV file [GenerativeAI_Health_Customer_Insights.csv](Cleaning_GenerativeAI_Health_Customer_Insights.csv) is formatted correctly.
 
-## __🔑 Required Columns:__
+- __🔑 Required Columns:__
 CustomerID, Age, Gender, Region, HealthGoal, PreferredInteractionChannel, SatisfactionScore, MonthlySpending, AIInsight, FeedbackComments, StressLevel.
-- Step 2️⃣: Run the Application
+__Step 2️⃣:__ Run the Application
 Run the chatbot with:
 
 bash
 Copy code
 streamlit run app.py
-- Step 3️⃣: Chat with the Assistant
+__Step 3️⃣:__ Chat with the Assistant
 🖊️ Enter your health-related query in the input field.
 🧠 The chatbot retrieves relevant customer data and provides a refined response.
 
 __🛠️ Project Workflow__
-- 1️⃣ Data Processing
-📄 Reads and cleans customer data from the CSV file.
-📝 Converts rows into descriptive text summaries.
-✂️ Splits text into manageable chunks using RecursiveCharacterTextSplitter.
-- 2️⃣ Vectorstore Setup
+__1️⃣ Data Processing__
+- 📄 Reads and cleans customer data from the CSV file.
+- 📝 Converts rows into descriptive text summaries.
+- ✂️ Splits text into manageable chunks using RecursiveCharacterTextSplitter.
+
+__2️⃣ Vectorstore Setup__
 📊 Embeddings are generated using OpenAI and stored in FAISS for fast similarity-based searches.
-- 3️⃣ Query Handling
-🔍 Matches user queries with relevant customer data.
-🧩 Combines retrieved data and user questions to create context-enriched prompts.
-- 4️⃣ AI Response Generation
-🛠️ Formats a prompt with ChatPromptTemplate.
-💡 Generates a detailed, user-specific response using OpenAI's language model.
-🎛️ Customization
-🔄 Modify Customer Data
+
+__3️⃣ Query Handling__
+- 🔍 Matches user queries with relevant customer data.
+- 🧩 Combines retrieved data and user questions to create context-enriched prompts.
+
+__4️⃣ AI Response Generation__
+- 🛠️ Formats a prompt with ChatPromptTemplate.
+- 💡 Generates a detailed, user-specific response using OpenAI's language model.
+  
+__🎛️ Customization__
+- 🔄 Modify Customer Data
 Update the CSV file with additional insights or fields to enhance responses.
 
-🎨 Adjust LLM Behavior
-🔥 Modify the temperature parameter for more or less creative responses.
-🖋️ Customize the ChatPromptTemplate to adjust tone or style.
-🧩 Extend Functionality
-🎤 Add voice input for greater accessibility.
-🌐 Integrate external APIs for real-time health recommendations.
-⚠️ Limitations
-📋 Requires well-structured and complete input data for best results.
-🛠️ Depends on OpenAI API, so an active key is essential.
-🤔 May generate less accurate responses if data quality is poor.
-🖊️ Author
-[Your Name]
+__🎨 Adjust LLM Behaviour__
+- 🔥 Modify the temperature parameter for more or less creative responses.
+- 🖋️ Customize the ChatPromptTemplate to adjust tone or style.
+  
+__🧩 Extend Functionality__
+- 🎤 Add voice input for greater accessibility.
+- 🌐 Integrate external APIs for real-time health recommendations.
+  
+__⚠️ Limitations__
+- 📋 Requires well-structured and complete input data for best results.
+- 🛠️ Depends on OpenAI API, so an active key is essential.
+- 🤔 May generate less accurate responses if data quality is poor.
 
 📜 License
 [Specify your license, e.g., MIT License]
