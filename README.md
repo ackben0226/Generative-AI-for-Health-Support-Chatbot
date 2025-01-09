@@ -1,9 +1,9 @@
-#__🩺 Health Support Chatbot - README 📖__
+__🩺 Health Support Chatbot - README 📖__
 
-🌟 Overview
+__🌟 Overview__
 This project is a Health Support Chatbot designed to assist users with health-related queries using customer data and advanced AI models. The chatbot provides tailored responses by leveraging structured data and OpenAI-powered language capabilities.
 
-✨ Features
+__✨ Features__
 💬 Interactive Chat Interface: User-friendly chatbot powered by Streamlit.
 🔍 Customer Insights Retrieval: Fetches and utilizes detailed customer information (e.g., demographics, health goals, satisfaction scores).
 🤖 AI-Powered Responses: Context-aware answers generated using OpenAI's language models.
