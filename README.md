@@ -4,11 +4,11 @@
 </br> This project is a Health Support Chatbot designed to assist users with health-related queries using customer data and advanced AI models. The chatbot provides tailored responses by leveraging structured data and OpenAI-powered language capabilities.
 
 ## __✨ Features__
-- 💬 Interactive Chat Interface: User-friendly chatbot powered by Streamlit.
-- 🔍 Customer Insights Retrieval: Fetches and utilizes detailed customer information (e.g., demographics, health goals, satisfaction scores).
-- 🤖 AI-Powered Responses: Context-aware answers generated using OpenAI's language models.
-- ⚡ Fast Data Search: Implements FAISS for quick similarity-based retrieval.
-- 📚 Dynamic Summaries: Combines data insights with user queries for meaningful, personalized answers.
+- 💬 ___Interactive Chat Interface:___ User-friendly chatbot powered by Streamlit.
+- 🔍 ___Customer Insights Retrieval:___ Fetches and utilizes detailed customer information (e.g., demographics, health goals, satisfaction scores).
+- 🤖 ___AI-Powered Responses:___ Context-aware answers generated using OpenAI's language models.
+- ⚡ ___Fast Data Search:___ Implements FAISS for quick similarity-based retrieval.
+- 📚 ___Dynamic Summaries:___ Combines data insights with user queries for meaningful, personalized answers.
   
 ## __🚀 Installation and Setup__
 ### __✅ Prerequisites__
@@ -21,15 +21,18 @@
 Install the required libraries using pip:
 
 bash
+
 Copy code
 pip install streamlit langchain openai python-dotenv faiss pandas
-🔐 Environment Variables
+
+## __🔐 Environment Variables__
 Set up a .env file with your OpenAI API key:
 
 plaintext
 Copy code
 OPENAI_API_KEY=your_openai_api_key_here
-🏃 Usage
+
+## __🏃 Usage__
 Step 1️⃣: Prepare the Customer Data
 Ensure the CSV file (Cleaning_GenerativeAI_Health_Customer_Insights.csv) is available and formatted correctly.
 
