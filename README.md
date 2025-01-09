@@ -3,19 +3,21 @@ __🩺 Health Support Chatbot - README 📖__
 __🌟 Overview__
 </br> This project is a Health Support Chatbot designed to assist users with health-related queries using customer data and advanced AI models. The chatbot provides tailored responses by leveraging structured data and OpenAI-powered language capabilities.
 
-__✨ Features__
+# __✨ Features__
 - 💬 Interactive Chat Interface: User-friendly chatbot powered by Streamlit.
 - 🔍 Customer Insights Retrieval: Fetches and utilizes detailed customer information (e.g., demographics, health goals, satisfaction scores).
 - 🤖 AI-Powered Responses: Context-aware answers generated using OpenAI's language models.
 - ⚡ Fast Data Search: Implements FAISS for quick similarity-based retrieval.
 - 📚 Dynamic Summaries: Combines data insights with user queries for meaningful, personalized answers.
-- 🚀 Installation and Setup
-✅ Prerequisites
-🐍 Python 3.7 or higher
-🖥️ Streamlit installed
-🔑 OpenAI API Key
-📦 Required Python libraries
-🛠️ Dependencies
+  
+__🚀 Installation and Setup__
+__✅ Prerequisites__
+1. 🐍 Python 3.7 or higher
+2. 🖥️ Streamlit installed
+3. 🔑 OpenAI API Key
+4. 📦 Required Python libraries
+   
+__🛠️ Dependencies__
 Install the required libraries using pip:
 
 bash
