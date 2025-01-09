@@ -33,18 +33,18 @@ Copy code
 OPENAI_API_KEY=your_openai_api_key_here
 
 ## __🏃 Usage__
-__Step 1️⃣:__ Prepare the Customer Data
+</br>__Step 1️⃣:__ Prepare the Customer Data
 Ensure the CSV file [GenerativeAI_Health_Customer_Insights.csv](Cleaning_GenerativeAI_Health_Customer_Insights.csv) is formatted correctly.
 
 - __🔑 Required Columns:__
 CustomerID, Age, Gender, Region, HealthGoal, PreferredInteractionChannel, SatisfactionScore, MonthlySpending, AIInsight, FeedbackComments, StressLevel.
-__Step 2️⃣:__ Run the Application
+</br>__Step 2️⃣:__ Run the Application
 Run the chatbot with:
 
 bash
 Copy code
 streamlit run app.py
-__Step 3️⃣:__ Chat with the Assistant
+</br>__Step 3️⃣:__ Chat with the Assistant
 🖊️ Enter your health-related query in the input field.
 🧠 The chatbot retrieves relevant customer data and provides a refined response.
 
