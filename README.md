@@ -34,9 +34,9 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ## __🏃 Usage__
 Step 1️⃣: Prepare the Customer Data
-Ensure the CSV file (Cleaning_GenerativeAI_Health_Customer_Insights.csv) is available and formatted correctly.
+Ensure the CSV file [dddddd](Cleaning_GenerativeAI_Health_Customer_Insights.csv) is formatted correctly.
 
-🔑 Required Columns:
+## __🔑 Required Columns:__
 CustomerID, Age, Gender, Region, HealthGoal, PreferredInteractionChannel, SatisfactionScore, MonthlySpending, AIInsight, FeedbackComments, StressLevel.
 Step 2️⃣: Run the Application
 Run the chatbot with:
