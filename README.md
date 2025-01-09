@@ -33,31 +33,32 @@ Copy code
 OPENAI_API_KEY=your_openai_api_key_here
 
 ## __🏃 Usage__
-Step 1️⃣: Prepare the Customer Data
-Ensure the CSV file [dddddd](Cleaning_GenerativeAI_Health_Customer_Insights.csv) is formatted correctly.
+- Step 1️⃣: Prepare the Customer Data
+Ensure the CSV file [GenerativeAI_Health_Customer_Insights.csv](Cleaning_GenerativeAI_Health_Customer_Insights.csv) is formatted correctly.
 
 ## __🔑 Required Columns:__
 CustomerID, Age, Gender, Region, HealthGoal, PreferredInteractionChannel, SatisfactionScore, MonthlySpending, AIInsight, FeedbackComments, StressLevel.
-Step 2️⃣: Run the Application
+- Step 2️⃣: Run the Application
 Run the chatbot with:
 
 bash
 Copy code
 streamlit run app.py
-Step 3️⃣: Chat with the Assistant
+- Step 3️⃣: Chat with the Assistant
 🖊️ Enter your health-related query in the input field.
 🧠 The chatbot retrieves relevant customer data and provides a refined response.
-🛠️ Project Workflow
-1️⃣ Data Processing
+
+__🛠️ Project Workflow__
+- 1️⃣ Data Processing
 📄 Reads and cleans customer data from the CSV file.
 📝 Converts rows into descriptive text summaries.
 ✂️ Splits text into manageable chunks using RecursiveCharacterTextSplitter.
-2️⃣ Vectorstore Setup
+- 2️⃣ Vectorstore Setup
 📊 Embeddings are generated using OpenAI and stored in FAISS for fast similarity-based searches.
-3️⃣ Query Handling
+- 3️⃣ Query Handling
 🔍 Matches user queries with relevant customer data.
 🧩 Combines retrieved data and user questions to create context-enriched prompts.
-4️⃣ AI Response Generation
+- 4️⃣ AI Response Generation
 🛠️ Formats a prompt with ChatPromptTemplate.
 💡 Generates a detailed, user-specific response using OpenAI's language model.
 🎛️ Customization
