@@ -37,8 +37,9 @@ OPENAI_API_KEY=your_openai_api_key_here
 Ensure the CSV file [GenerativeAI_Health_Customer_Insights.csv](Cleaning_GenerativeAI_Health_Customer_Insights.csv) is formatted correctly.
 
 - __🔑 Required Columns:__
-CustomerID, Age, Gender, Region, HealthGoal, PreferredInteractionChannel, SatisfactionScore, MonthlySpending, AIInsight, FeedbackComments, StressLevel.
+</br>CustomerID, Age, Gender, Region, HealthGoal, PreferredInteractionChannel, SatisfactionScore, MonthlySpending, AIInsight, FeedbackComments, StressLevel.
 </br>__Step 2️⃣:__ Run the Application
+
 Run the chatbot with:
 
 bash
@@ -49,7 +50,7 @@ Copy code
 🧠 The chatbot retrieves relevant customer data and provides a refined response.
 
 __🛠️ Project Workflow__
-__1️⃣ Data Processing__
+</br>__1️⃣ Data Processing__
 - 📄 Reads and cleans customer data from the CSV file.
 - 📝 Converts rows into descriptive text summaries.
 - ✂️ Splits text into manageable chunks using RecursiveCharacterTextSplitter.
@@ -66,8 +67,8 @@ __4️⃣ AI Response Generation__
 - 💡 Generates a detailed, user-specific response using OpenAI's language model.
   
 __🎛️ Customization__
-- 🔄 Modify Customer Data
-Update the CSV file with additional insights or fields to enhance responses.
+- __🔄 Modify Customer Data__
+</br>Update the CSV file with additional insights or fields to enhance responses.
 
 __🎨 Adjust LLM Behaviour__
 - 🔥 Modify the temperature parameter for more or less creative responses.
@@ -82,7 +83,7 @@ __⚠️ Limitations__
 - 🛠️ Depends on OpenAI API, so an active key is essential.
 - 🤔 May generate less accurate responses if data quality is poor.
 
-📜 License
+__📜 License__
 [Specify your license, e.g., MIT License]
 
 Enjoy building your health assistant! 🌟
