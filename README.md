@@ -23,7 +23,7 @@ Install the required libraries using pip:
 bash
 
 Copy code
-pip install streamlit langchain openai python-dotenv faiss pandas
+</br>pip install streamlit langchain openai python-dotenv faiss pandas
 
 ## __🔐 Environment Variables__
 Set up a .env file with your OpenAI API key:
@@ -43,7 +43,7 @@ Run the chatbot with:
 
 bash
 Copy code
-streamlit run app.py
+</br> streamlit run app.py
 </br>__Step 3️⃣:__ Chat with the Assistant
 🖊️ Enter your health-related query in the input field.
 🧠 The chatbot retrieves relevant customer data and provides a refined response.
